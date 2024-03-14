@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div >
-      <HashRouter>
+      <Router>
         <div className="flex relative dark:bg-main-dark-bg">
           {activeMenu ? (
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white ">
@@ -47,7 +47,7 @@ const App = () => {
             <Footer />
           </div>
         </div>
-      </HashRouter>
+      </Router>
     </div>
   );
 };
