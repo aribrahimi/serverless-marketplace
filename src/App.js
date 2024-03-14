@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Footer, Sidebar } from './components';
 import './App.css';
 import { useUIState } from './contexts/UIStateContext';
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div >
-      <BrowserRouter>
+      <HashRouter>
         <div className="flex relative dark:bg-main-dark-bg">
           {activeMenu ? (
             <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white ">
@@ -47,7 +47,7 @@ const App = () => {
             <Footer />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };
