@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/serverless-marketplace/static/css/main.b205a954.css",
-    "main.js": "/serverless-marketplace/static/js/main.9617a111.js",
-    "static/media/product1.jpg": "/serverless-marketplace/static/media/product1.b8efc7a24c281ed8911b.jpg",
-    "static/media/product3.jpg": "/serverless-marketplace/static/media/product3.be6bce80c539b3222473.jpg",
-    "index.html": "/serverless-marketplace/index.html",
-    "main.b205a954.css.map": "/serverless-marketplace/static/css/main.b205a954.css.map",
-    "main.9617a111.js.map": "/serverless-marketplace/static/js/main.9617a111.js.map"
+    "main.css": "/static/css/main.b205a954.css",
+    "main.js": "/static/js/main.74fab900.js",
+    "static/media/product1.jpg": "/static/media/product1.b8efc7a24c281ed8911b.jpg",
+    "static/media/product3.jpg": "/static/media/product3.be6bce80c539b3222473.jpg",
+    "index.html": "/index.html",
+    "main.b205a954.css.map": "/static/css/main.b205a954.css.map",
+    "main.74fab900.js.map": "/static/js/main.74fab900.js.map"
   },
   "entrypoints": [
     "static/css/main.b205a954.css",
-    "static/js/main.9617a111.js"
+    "static/js/main.74fab900.js"
   ]
 }
